@@ -1,0 +1,34 @@
+:root{
+    --back-color:darkgray
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: var(--back-color);
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+svg{
+    background-color: azure;
+    box-shadow: 0 0 3px 1px darkslategray;
+}
+.bar:hover {
+fill: blue;
+}
+#tooltip {
+    position: absolute;
+    font-size: 8px;
+    width:50px;
+    opacity: 0;
+    padding: 0.5px;
+    background-color: skyblue;
+    border-radius: 10px;
+    border: 2px solid black;
+}
