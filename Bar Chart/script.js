@@ -3,8 +3,8 @@ const url =
 const gdp = document.getElementById("gdp");
 const date = document.getElementById("date");
 const tooltip = document.getElementById("tooltip");
-const h = 500; // Adjust the height as needed
-const w = 500; // Adjust the width as needed
+const h = 500;
+const w = 500;
 const padding = 50;
 const svg = d3
   .select("main")

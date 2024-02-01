@@ -1,0 +1,54 @@
+:root{
+    --back-color:darkgray
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: var(--back-color);
+    
+}
+header{
+    position: absolute;
+    width:100%;    
+    text-align: center;    
+    z-index: 10; 
+}
+main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    font-size:1rem;
+}
+h2{
+    font-size:0.8rem;
+}
+svg{
+    position: absolute;
+    background-color: azure;
+    box-shadow: 0 0 3px 1px darkslategray;
+}
+
+#tooltip {
+    position: absolute;
+    font-size: 8px;
+    width:50px;
+    opacity: 0;
+    padding: 0.5px;
+    background-color: skyblue;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.dot{
+    fill: blue;
+    z-index: 25;
+}
+dot:hover{
+    fill: red;
+}
