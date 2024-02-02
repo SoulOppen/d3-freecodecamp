@@ -33,7 +33,6 @@ fetch(url)
     const maxYear = d3.max(data, (d) => d["Year"]);
     const minSeconds = d3.min(data, (d) => d["Seconds"]);
     const maxSeconds = d3.max(data, (d) => d["Seconds"]);
-    console.log;
     const xScale = d3
       .scaleLinear()
       .domain([minYear, maxYear])

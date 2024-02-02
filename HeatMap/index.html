@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScatterPlot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Monthly Global Land-Surface Temperature</h1>
+        <h2 id="description">Monthly Global Land-Surface Temperature</h2>
+    </header>
+    <main>
+        <section id="body">
+            <div id="general">
+                <div id="left">
+                    <p>Month</p>
+                </div>
+                <div id="right">
+                    <div id="svg">
+                    </div>
+                    <div id="svg-x">
+                        <p>Year</p>
+                    </div>
+                    <div id="tooltip">
+                        <p id="year"></p>
+                        <p id="month"></p>
+                        <p id="temperature"></p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section id="legend">
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

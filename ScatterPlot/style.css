@@ -49,6 +49,3 @@ svg{
     fill: blue;
     z-index: 25;
 }
-dot:hover{
-    fill: red;
-}

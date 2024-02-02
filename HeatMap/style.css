@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    
+}
+header{  
+    text-align: center;    
+}
+
+h1{
+    font-size:1rem;
+}
+h2{
+    font-size:0.8rem;
+}
+main{
+    position: relative;
+}
+#tooltip {
+    position: absolute;
+    font-size: 8px;
+    width:75px;
+    opacity: 0;
+    padding: 0.5px;
+    background-color: skyblue;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#left{ 
+        display: inline;
+        transform: rotate(-90deg);
+}
+#right{ 
+    text-align: center;
+}
+#legend{
+    width:50%;
+    margin: auto;
+}
