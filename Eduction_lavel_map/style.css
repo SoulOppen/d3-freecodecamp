@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+header {
+  text-align: center;
+}
+main {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+}
+#legend {
+  position: absolute;
+  right: 10%;
+}
+#footer {
+  position: absolute;
+  top: 180vh;
+  right: 10%;
+}
+#tooltip {
+  position: absolute;
+  font-size: 8px;
+  width: 50px;
+  opacity: 0;
+  padding: 0.5px;
+  background-color: yellow;
+  border-radius: 10px;
+  border: 2px solid black;
+}

@@ -135,7 +135,7 @@ const label = d3
   .attr("width", 50)
   .attr("height", 20)
   .style("fill", (d) => gradientColors[d]);
-const xScaleL = d3.scaleBand().domain(key).range([0, 250]);
+const xScaleL = d3.scaleBand().domain([-4, -2.5, -0.8, 1]).range([0, 250]);
 const xL = d3.axisBottom(xScaleL);
 const svgL = d3.select("#svgL");
 svgL
@@ -143,3 +143,6 @@ svgL
   .attr("id", "x-axis-l")
   .attr("transform", `translate(0,25)`)
   .call(xL);
+svgL
+  .selectAll(".tick")
+  .attr("transform", (d, i) => `translate(${50 * (i + 1)},0)`);
